@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width,intial-scale=1.0">
+<title>HTML Unvareled</title>
+<style>
+  body{
+font-family:Arial,sans-serif;
+line-height:1.6;
+ margin:20px
+}
+
+  header{
+  text-align: center;
+  padding:20px 0;
+  background-color:#f2
+f2f2;
+   }
+  
+   article{
+  max-width:800px;
+   margin: 0 auto;
+  }  
+ 
+  h1,h2{
+   color:#333;
+   }
+   
+   p{
+   color:#555;
+   }
+   
+   footer{
+margin-top:20px;
+text-align:center;
+  color:#777;
+   }
+
+.tags{
+  margin-top:10px;
+}
+
+  .tag{
+display:inline-block;
+background-color:#007BFF;
+color:#fff;
+padding:5px 10px;
+margin-right:5px;
+border-radius:3px;
+ }
+   </style>
+   </head>
+   <body>
+
+    <header>
+  <h1>HTML Unraveled </h1>
+  </header>
+  
+    <article> 
+   <p>HTML,the backbone of the web,is a markup language that structures content on the internet </p>
+
+    <p>In the essence,HTML(Hypertext Markup Language)provides the foundation for creating web pages.It consists of tags that define different elements on a page,such as headings,paragraphs,links,and image.HTML is the standard markup language for creating we pages and web application.we use different types of keypoints in HTML.HTML uses markup structure with elements enclosed in tags.Tags are often in pairs(opening and closing),defining the start and end of an element. </p>
+     
+      <h2>The basics of HTML</h2>
+      <p>HTML uses a hierichal strurcture where tags are nested inside each other.for example:</p>
+                 <pre>
+      <code>
+       &It;html&gt;
+          &It;html&gt;
+          &It;title&gt; My Web Page&It;/title&gt;
+           &It;/head&gt;
+             &It;body&gt;
+             &It;h1&gt;Welcome To My Web Page&It;/h1&gt;
+              &It;p&gt;This is a simple HTML example.&It;/p&gt;
+             &It;/body&gt;
+             &It;/html&gt;
+               </code>
+      </pre>
+
+   <h2>Unraveling HTML Tags </h2>
+    <p>Let's unravel some common HTML tags:</p>
+     <ul>
+   <li><strong>&It;h1&gt;to &It;h6&gt;</strong>:Heading of different levels</li>
+  <li><strong>&It;p&gt;</strong>:Paragraph</li>
+    <li><strong>&It;a&gt;</strong>:Anchor( used for hyperlink)</li>
+     <li><strong>&It;img&gt;</strong>:Image</li>
+    <!--Add more tags as needed-->
+   </ul>
+    
+      <div class="tag">
+  <span class="tags">HTML</span>
+  <span class="tag">Web Development</span>
+    <span class="tag">Coding</span>
+   </div>
+  </article>
+  
+    <footer>
+     <p>&copy;2023 HTML Unraveled.All rights reserved.</p>
+   </footer>
+   
+    </body>
+    </html>
+
+
+ 
