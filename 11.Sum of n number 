@@ -1,0 +1,28 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of n Numbers</title>
+</head>
+<body>
+
+<h2>Enter n numbers to calculate their sum</h2>
+
+<script>
+    let n = parseInt(prompt("Enter the number of values:"));
+    let sum = 0;
+
+    for (let i = 0; i < n; i++) {
+        let num = parseFloat(prompt("Enter number " + (i + 1) + ":"));
+        sum += num;
+    }
+
+    document.write("<p>The sum is: " + sum + "</p>");
+</script>
+
+</body>
+</html>
