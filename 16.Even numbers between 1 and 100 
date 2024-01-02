@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Even numbers from 1 to 100</title>
+</head>
+<body>
+    <h1>Even numbers from 1 to 100</h1>
+    <div id="numbers"></div>
+    <script>
+        let numbersDiv = document.getElementById("numbers");
+        for (let i = 2; i <= 100; i+=2) {
+            numbersDiv.innerHTML += i +  "<br>";
+        }
+    </script>
+</body>
+</html>
