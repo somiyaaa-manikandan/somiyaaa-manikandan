@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Positive, Negative, or Neutral number</title>
+</head>
+
+<body>
+    <h1>Positive, Negative, or Neutral number</h1>
+    <script>
+        var number = prompt('Enter your number:'); 
+        var num = parseFloat(number);
+
+        if (!isNaN(num)) {
+            if (num > 0) {
+                alert(num + ' is Positive Number');
+            } else if (num < 0) {
+                alert(num + ' is Negative Number');
+            } else {
+                alert(num + ' is Neutral Number');
+            }
+        } else {
+            alert('Enter a valid number.');
+        }
+    </script>
+</body>
+</html>
