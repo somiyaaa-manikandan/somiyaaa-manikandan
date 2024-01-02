@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prime Numbers from 1 to 100</title>
+</head>
+<body>
+    <h1>Prime Numbers from 1 to 100</h1>
+    <div id="numbers"></div>
+    <script>
+        let numbersDiv = document.getElementById("numbers");
+
+        function isPrime(num) {
+            for (let i = 2; i < num; i++) {
+                if (num % i === 0) {
+                    return false;
+                }
+            }
+            return num > 1;
+        }
+
+        for (let i = 2; i <= 100; i++) {
+            if (isPrime(i)) {
+                 numbersDiv.innerHTML += i + "<br>";
+            }
+        }
+    </script>
+</body>
+</html>
