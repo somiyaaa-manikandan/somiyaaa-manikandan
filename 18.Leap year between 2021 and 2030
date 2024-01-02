@@ -1,0 +1,20 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>leap years between 2021 and 2030</title>
+</head>
+<body>
+    <h1>leap years between 2021 and 2030</h1>
+    <div id="leapyears"></div>
+    <script>
+        let leapyearsDiv = document.getElementById("leapyears");
+        for (var year = 2021; year <= 2030; year++) {
+            if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+                leapyearsDiv.innerHTML += year + "<br>";
+            }
+        }
+    </script>
+</body>
+</html>
