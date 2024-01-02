@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Palindrome</title>
+</head>
+<body>
+    <h1>Palindrome</h1>
+    <label for="String">Enter a string:</label>
+    <input type="text" id="String">
+    <button onclick="checkPalindrome()">Check</button>
+    <p id="answer"></p>
+
+    <script>
+        function checkPalindrome() {
+            var String = document.getElementById("String").value.toLowerCase();
+            var isPalindrome = String === String.split('').reverse().join('');
+            document.getElementById("answer").innerHTML = isPalindrome ? "It's a Palindrome!" : "Not a Palindrome";
+        }
+    </script>
+</body>
+</html>
