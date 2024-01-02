@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Even or Odd </title>
+</head>
+<body>
+    <h1>Even or Odd Checker</h1>
+    <input type="number" id="num" placeholder="Enter a number">
+    <button onclick="checkEvenOrOdd()">Check</button>
+    <p id="result"></p>
+
+    <script>
+        function checkEvenOrOdd() {
+            var number = document.getElementById("num").value;
+
+            var result = document.getElementById("result");
+            result.innerHTML = isNaN(number) ? "Please enter a valid number" : (number % 2 === 0 ? "The number is Even" : "The number is Odd");
+        }
+    </script>
+</body>
+</html>
