@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Armstrong Number</title>
+</head>
+
+<body>
+    <h1>Armstrong Number Checker</h1>
+    <label for="userInput">Enter a number:</label>
+    <input type="text" id="userInput">
+    <button onclick="checkArmstrong()">Check</button>
+    <div id="armstrongResult"></div>
+
+    <script>
+        function checkArmstrong() {
+            let userInput = document.getElementById("userInput").value;
+            let armstrongResultDiv = document.getElementById("armstrongResult");
+            let sum = 0;
+
+            for (let i = 0; i < userInput.length; i++) {
+                sum += Number(userInput[i]) ** userInput.length;
+            }
+
+            const isArmstrong = sum === Number(userInput);
+            armstrongResultDiv.innerHTML = ${userInput} ${isArmstrong ? 'is an Armstrong number.' : 'is not an Armstrong number.'};
+        }
+    </script>
+</body>
+
+</html>
