@@ -1,0 +1,27 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vowel or Consonant Checker</title>
+</head>
+
+<body>
+    <h1>Vowel or Consonant Checker</h1>
+
+    <script>
+        const character = prompt('Enter a character:');
+
+        const vowels = 'aeiouAEIOU';
+        const isVowel = vowels.includes(character);
+
+        if (isVowel) {
+            alert(${character} is a vowel.);
+        } else {
+            alert(${character} is a consonant.);
+        }
+    </script>
+</body>
+
+</html>
